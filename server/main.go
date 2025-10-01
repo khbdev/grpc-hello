@@ -15,7 +15,7 @@ type server struct {
 }
 
 func (s *server) SayHello(ctx context.Context, req *pb.HelloRequest) (*pb.HelloResponse, error) {
-    return &pb.HelloResponse{Message: "Salom, " + req.Name}, nil
+    return &pb.HelloResponse{Message: "Salom, dfhhhhhhhhhhhhhhhhh" + req.Name}, nil
 }
 
 func main() {
